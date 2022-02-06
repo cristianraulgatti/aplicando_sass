@@ -1,0 +1,31 @@
+.footer{
+    grid-area:footer;
+    background-image: linear-gradient($color4,$color1);
+    .footText{
+        padding:20px;
+        text-align: center;
+    }
+    #sinSub{
+        text-decoration: none;
+    }
+    .footer__socialNetworks a{
+        color: $color6;
+        padding: 7px;
+        margin: 7px;
+    }
+    .footer__socialNetworks{
+        display:flex;
+        justify-content: center;
+        list-style-type: none;
+        border-radius: 50%;
+        margin: 0 20px;
+        transition: transform 0.5s;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 2.4rem;
+    }
+    .footer__socialNetworks a:hover{
+        transition: transform .3s; 
+        transform: scale(1.1);   
+    }
+}

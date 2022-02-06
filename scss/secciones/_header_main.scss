@@ -1,0 +1,81 @@
+.grilla2{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+    "header header header"
+    "left section1 right"
+    "footer footer footer";
+     .header{
+        grid-area: header;
+        background-image: linear-gradient($color1, $color4);
+        .justTitulo{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+            height: 60%;
+            justify-content: space-around;
+            align-items: center;
+            .logo{
+                width: 200px; 
+                margin-top: 20px;
+                margin-left: 20px;
+                display:inline-block;  
+            }
+            .titulo{
+                color: $color4;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-style: oblique;
+                font-weight: bold;
+                font-size: 80px;
+            }
+            .subtitulo{
+                color: $color4;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-style: oblique;
+                font-weight: bold;
+                font-size: 40px;
+                padding-top: 40px;
+            }
+        }.menu{
+            display: flex;
+            font-size: 30px;
+            list-style-type: none;
+            justify-content: center;
+            margin-top: 35px;
+            flex-wrap: wrap;
+            #sinSub{
+                text-decoration: none;
+            }
+            li a{
+                display: inline-block;
+                padding: 15px 30px;
+                margin: 5px;
+                text-decoration: none;
+                color: $color5;  
+            }
+            li:hover{
+                background-color: $color3;
+            }
+        }
+        .flexHeader{
+            display:flex;
+            font-size: 20px;
+            color: $color5;
+            justify-content: space-between;
+            .textHeaderLeft{
+                font-size: 25px;
+                margin-left: 120px;
+                .formSize{
+                    width: 300px;
+                    height: 30px;
+                    font-size: 15px;
+                    text-align: center;}
+                }
+            .textHeaderRight{
+                text-align: right;
+                margin-right: 120px;
+            }
+        }
+    }
+}
