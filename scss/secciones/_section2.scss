@@ -1,0 +1,23 @@
+.section2{
+    grid-area: section2;
+    background-color: $color4;
+    .lista {
+        display: flex;
+        font-style: italic;
+        text-align: center;
+        font-size: 40px;
+        list-style-type: none;
+        justify-content: center;
+        flex-wrap: wrap;
+        li a {
+            display: inline-block;
+            padding: 30px;
+            margin: 20px;
+            text-decoration: none;
+            color: #344e41;
+        }
+        li:hover{
+            transform: scale(1.3)
+        }
+    }
+}

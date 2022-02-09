@@ -1,15 +1,12 @@
-.grilla{
+.grilla2{
     display: grid;
     grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 1fr 2.5fr 0.5fr 2fr 2fr 0.5fr;
+    grid-template-rows: 1fr 2fr;
     grid-template-areas:
     "header header header"
-    "left section1 right"
-    "left section2 right"
-    "left section3 right"
-    "left section4 right"
+    "left seccionunica right"
     "footer footer footer";
-    .header{
+     .header{
         grid-area: header;
         background-image: linear-gradient($color1, $color4);
         .justTitulo{

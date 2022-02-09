@@ -1,0 +1,16 @@
+.formPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .formSize {
+        width: 300px;
+        height: 30px;
+        font-size: 15px;
+        text-align: center;}
+    .formSizelarge {
+        width: 300px;
+        height: 260px;
+        font-size: 15px; 
+        text-align:center;}
+}
