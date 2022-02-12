@@ -14,10 +14,11 @@
             padding: 30px;
             margin: 20px;
             text-decoration: none;
-            color: #344e41;
+            color: $color1;
         }
         li:hover{
-            transform: scale(1.3)
+            transition: transform 1s; 
+            transform: scale(1.3);
         }
     }
 }

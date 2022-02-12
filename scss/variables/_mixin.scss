@@ -1,0 +1,66 @@
+@mixin footerText{
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 1.3rem;
+}
+@mixin estiloH1{
+    padding: 30px;
+    color: $color1;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
+@mixin estiloH2{
+    padding: 30px;
+    color: $color1;
+    font-style: bold;
+    text-align: center;
+    font-size: 40px;
+}
+@mixin estiloH3{
+    padding: 20px;
+    color: $color1;
+    font-style: bold;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 40px;
+}
+@mixin estiloTitulo{
+    color: $color4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 80px;
+}
+@mixin estiloSubtitulo{
+    color: $color4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 40px;
+}
+@mixin estiloLogo{
+    width: 200px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    display:inline-block;  
+}
+@mixin estiloImgGen{
+    margin: 7px;
+    background-color:$color3;
+    border: 2px solid $color6;
+    padding: 3px;
+}
+@mixin estiloImgNov{
+    margin: 10px;
+    background-color:$color3;
+    border: 2px solid $color6;
+    padding: 3px;
+}
+@mixin estiloImgVend{
+    padding: 3px;
+    background-color:$color3;
+    margin: 5px;
+    border: 1px solid $color6;
+}

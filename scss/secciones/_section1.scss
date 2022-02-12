@@ -2,11 +2,7 @@
     grid-area: section1;
     background-color: $color4;
     h1{
-        padding: 30px;
-        color: $color1;
-        font-style: italic;
-        text-align: center;
-        font-size: 50px;
+        @include estiloH1();
     }
     .padreGrid1{
         display:grid;
@@ -16,10 +12,7 @@
         justify-content: space-around;
         align-content: center;
         .imgNov{
-            margin: 10px;
-            background-color:$color3;
-            border: 2px solid $color6;
-            padding: 3px;
+            @include estiloImgNov();
         }
         .zoom:hover{
             transition: transform .6s; 

@@ -9,7 +9,10 @@
 
 // VARIABLES
 
-@import './utilidades/colores';
+@import './variables/colores';
+@import './variables/sizes';
+@import './variables/mixin';
+@import './variables/maps';
 
 // IMPORTACIONES
 
@@ -24,4 +27,4 @@
 @import './secciones/section_art';
 @import './secciones/contact_form';
 @import './secciones/footer';
-@import './secciones/no_disponible.scss';
+@import './secciones/media';

@@ -2,11 +2,7 @@
     grid-area: seccionunica;
     background-color: $color4;
     h1{
-        padding: 30px;
-        color: $color1;
-        font-style: italic;
-        text-align: center;
-        font-size: 50px;
+        @include estiloH1();
     }
     .gridOther{
         display:grid;
@@ -16,15 +12,24 @@
         justify-content: space-around;
         align-content: center;
         .imgGen{
-                margin: 7px;
-                background-color:$color3;
-                border: 2px solid $color6;
-                padding: 3px;
+            @include estiloImgGen();
         }
         .zoom:hover{
             transition: transform .6s; 
             transform: scale(1.1);
         }
     }
-    
+    .noDisponible {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        color: red;
+        padding: 150px; }
+    .minH1{
+        margin-top: 5rem;
+        font-size: 35px;
+    }
 }

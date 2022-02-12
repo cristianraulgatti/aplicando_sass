@@ -2,8 +2,9 @@
     grid-area:footer;
     background-image: linear-gradient($color4,$color1);
     .footText{
-        padding:20px;
+        padding:30px;
         text-align: center;
+        @include footerText();
     }
     #sinSub{
         text-decoration: none;

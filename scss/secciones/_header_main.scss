@@ -20,25 +20,13 @@
             justify-content: space-around;
             align-items: center;
             .logo{
-                width: 200px; 
-                margin-top: 20px;
-                margin-left: 20px;
-                display:inline-block;  
+                @include estiloLogo();  
             }
             .titulo{
-                color: $color4;
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-style: oblique;
-                font-weight: bold;
-                font-size: 80px;
+                @include estiloTitulo();
             }
             .subtitulo{
-                color: $color4;
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-style: oblique;
-                font-weight: bold;
-                font-size: 40px;
-                padding-top: 40px;
+                @include estiloSubtitulo();
             }
         }.menu{
             display: flex;

@@ -1,0 +1,15 @@
+// MAPA
+
+$footertextColors:(
+    red: rgb(160, 20, 20),
+    green: rgb(26, 95, 47),
+    blue: rgb(20, 20, 165),
+);
+
+// BUCLE
+
+@each $frases, $color in $footertextColors{
+    .#{$frases}{
+        color: $color;
+    }
+}

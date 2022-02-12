@@ -1,0 +1,12 @@
+1 - Contenido completado en todo el sitio.
+2 - Meta Keywords: aplicado a todos los archivos html, de acuerdo al contenido de cada uno. (no supera las 10 palabras en ningún caso)
+3 - Meta Description: idem anterior. (no supera los 160 caracteres en ningún caso)
+4 - Texto alternativo de todas las imágenes: completado.
+5 - Jerarquía de títulos (H1, H2, etc): aplicada correctamente a todos los archivos html.
+6 - Título H1 presente en todos los archivos html.
+7 - Shortcut Icon a aplicado a todos los archivos html.
+8 - Title: completado de acuerdo a contenido en todos los archivos html.
+9 - SASS aplicado.
+10 - Mixin: utilizado (simple, no "pro") / Extend no utilizado.
+11 - Mapas: solo aplicado a texto de footer en index.html
+12 - Operaciones y condicional ("if") no utilizados por no ser necesarios.
