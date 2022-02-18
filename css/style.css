@@ -383,8 +383,34 @@
     transition: transform .3s;
     transform: scale(1.1); }
 
+@media (max-width: 1762px) {
+  .header {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-content: center; }
+  .section1 .padreGrid1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-content: center; }
+    .section1 .padreGrid1 .imgNov {
+      width: 13vw; }
+  .sectionUnica .gridOther {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center; }
+    .sectionUnica .gridOther .imgGen {
+      width: 13vw; }
+  .centerFrame .iframe {
+    width: 13vw; } }
+
 @media (max-width: 768px) {
-  .header .justTitulo {
+  .header {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -397,7 +423,7 @@
     justify-content: center;
     align-content: center; }
     .section1 .padreGrid1 .imgNov {
-      width: 30vw; }
+      width: 27vw; }
   .sectionUnica .gridOther {
     display: grid;
     grid-template-columns: auto auto;
@@ -405,12 +431,12 @@
     justify-content: center;
     align-content: center; }
     .sectionUnica .gridOther .imgGen {
-      width: 30vw; }
+      width: 27vw; }
   .centerFrame .iframe {
-    width: 30vw; } }
+    width: 27vw; } }
 
 @media (max-width: 320px) {
-  .header .justTitulo {
+  .header {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -423,7 +449,7 @@
     justify-content: center;
     align-content: center; }
     .section1 .padreGrid1 .imgNov {
-      width: 70vw; }
+      width: 45vw; }
   .sectionUnica .gridOther {
     display: grid;
     grid-template-columns: auto;
@@ -431,6 +457,6 @@
     justify-content: center;
     align-content: center; }
     .sectionUnica .gridOther .imgGen {
-      width: 70vw; }
+      width: 45vw; }
   .centerFrame .iframe {
-    width: 70vw; } }
+    width: 45vw; } }

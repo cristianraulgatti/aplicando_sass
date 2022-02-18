@@ -1,14 +1,54 @@
+// LARGE
+
+@media (max-width: $large) {
+    .header{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
+    }
+    .section1{
+        .padreGrid1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            justify-content: center;
+            align-content: center;
+            .imgNov{
+                width: 13vw;
+            }
+        }
+    }
+    .sectionUnica{
+        .gridOther {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            justify-content: center;
+            align-content: center;
+            .imgGen{
+                width: 13vw;
+          }
+        }
+    }
+    .centerFrame{
+        .iframe{
+        width: 13vw;
+    }
+        
+    }
+}
+
 // TABLET SIZE
 
 @media (max-width: $tablet) {
     .header{
-        .justTitulo{
-            display:grid;
-            grid-template-columns: auto;
-            grid-template-rows: auto auto auto;
-            justify-content: center;
-            align-content: center;
-        } 
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
     }
     .section1{
         .padreGrid1 {
@@ -18,7 +58,7 @@
             justify-content: center;
             align-content: center;
             .imgNov{
-                width: 30vw;
+                width: 27vw;
             }
         }
     }
@@ -30,13 +70,13 @@
             justify-content: center;
             align-content: center;
             .imgGen{
-                width: 30vw;
+                width: 27vw;
           }
         }
     }
     .centerFrame{
         .iframe{
-        width: 30vw;
+        width: 27vw;
     }
         
     }
@@ -45,14 +85,12 @@
 
 @media (max-width: $mobile) {
     .header{
-        .justTitulo{
-            display:grid;
-            grid-template-columns: auto;
-            grid-template-rows: auto auto auto;
-            justify-content: center;
-            align-content: center;
-        }
-    }
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
+}
     .section1{
         .padreGrid1 {
         display: grid;
@@ -61,7 +99,7 @@
         justify-content: center;
         align-content: center;
         .imgNov{
-            width: 70vw;
+            width: 45vw;
         }
     }
 }
@@ -73,13 +111,13 @@
             justify-content: center;
             align-content: center;
             .imgGen{
-                width: 70vw;
+                width: 45vw;
             }
         }
     }
     .centerFrame{
         .iframe{
-            width: 70vw;
+            width: 45vw;
         }
     }
 }
